@@ -1,0 +1,8 @@
+.component {
+  @include make-container($gutter: $grid-gutter-width);
+  @include make-container-max-widths($max-widths: $container-max-widths, $breakpoints: $grid-breakpoints);
+
+  margin-bottom: $grid-gutter-width;
+}
+
+@import "./media-content";
